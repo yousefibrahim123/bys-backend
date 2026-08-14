@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.env
+*.env
+.venv/
+venv/
+env/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ML assets - too large for GitHub (303 MB), stored separately
+ml_assets/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test
+.pytest_cache/
+htmlcov/
+.coverage

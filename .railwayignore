@@ -1,0 +1,23 @@
+# Exclude large files and unnecessary items from Railway upload
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.pytest_cache/
+htmlcov/
+.coverage
+venv/
+.venv/
+env/
+test_*.py
+recompute_metrics.py
+downgrade_typing.py
+fix_models.py
+
+# ML assets are too large for direct upload (303 MB)
+# Railway will build/download them separately
+ml_assets/
