@@ -11,10 +11,11 @@ python-multipart==0.0.20
 httpx==0.28.1
 
 # Machine Learning & Data Processing
-scikit-learn<=1.3.2
-lightgbm
-numpy<2.0.0
-pandas<2.1.0
-pyarrow
-rapidfuzz
-joblib
+scikit-learn==1.3.2
+lightgbm==4.3.0
+numpy==1.26.4
+pandas==2.0.3
+pyarrow==14.0.2
+rapidfuzz==3.6.1
+joblib==1.3.2
+setuptools
